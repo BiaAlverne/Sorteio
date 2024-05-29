@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sorteador de Números</title>
+
+    <link rel="style.css" href="./style.css">
+
+</head>
+<body>
+    <h1>Sorteador de Números</h1>
+    <div>
+        <label for="quantidade">Quantidade de números:</label>
+        <input type="number" id="quantidade" min="1" value="5"><br>
+        <label for="min">Valor mínimo:</label>
+        <input type="number" id="min" value="1"><br>
+        <label for="max">Valor máximo:</label>
+        <input type="number" id="max" value="100"><br>
+        <button onclick="realizarSorteio()">Sortear</button>
+    </div>
+    <div class="sortear"></div>
+
+  <script src="./script.js"></script>
+  
+</body>
+</html>
